@@ -138,6 +138,16 @@ img {
     color: #FFF;
     font-size: 16px;
     font-weight: 700;
+    transition: .5s;
+}
+
+
+.primary__btn i {
+    transition: .8s;
+}
+
+.primary__btn:hover i {
+    transform: translateX(10px);
 }
 
 .home__img {
