@@ -109,7 +109,7 @@ img {
 .home__container {
     display: flex;
     align-items: center;
-    gap: 50px;
+    gap: 30px;
 }
 
 .home__title {
