@@ -238,6 +238,7 @@ img {
 .featured {
     margin-bottom: 100px;
 }
+
 .featured__container {
     display: flex;
     align-items: center;
@@ -275,8 +276,52 @@ img {
 }
 
 /* ================================= Footer Section =================================== */
+.footer {
+    background: #0A0826;
+}
 
 
+.footer__content {
+    text-align: center;
+    padding: 55px 0;
+}
+
+.footer__title {
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.footer__copy {
+    color: #D9DBE1;
+    font-family: var(--footer-font);
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    /* 171.429% */
+    margin-bottom: 30px;
+}
+
+
+
+
+.footer__link {
+    color: #fff;
+    margin-right: 20px;
+    font-size: 24px;
+    font-weight: 600;
+    transition: color .5s ease-in-out;
+}
+
+.footer__link:hover {
+    color: #E02C6D;
+    transition: .5s;
+}
+
+.footer__link:last-child {
+    margin-right: 0;
+}
 
 /* ================================= Mediu Query for  Largest Devices =================================== */
 
@@ -543,5 +588,17 @@ img {
         width: 250px;
         height: 250px;
         flex-shrink: 0;
+    }
+
+    .footer__title {
+        font-size: 16px;
+    }
+
+    .footer__link {
+        font-size: 20px;
+    }
+
+    .footer__link:last-child {
+        margin-right: 0;
     }
 }
