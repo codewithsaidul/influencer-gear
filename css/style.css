@@ -224,8 +224,52 @@ img {
     letter-spacing: 0.252px;
 }
 
-/* ================================= Featured Section =================================== */
 
+.popular__btn {
+    display: block;
+    padding: 0;
+    background-color: transparent;
+    color: #E02C6D;
+    text-align: right;
+    margin-top: 20px;
+}
+
+/* ================================= Featured Section =================================== */
+.featured__container {
+    display: flex;
+    align-items: center;
+    column-gap: 50px;
+}
+
+.featured__img {
+    flex-basis: 48%;
+}
+
+.fetured__data {
+    flex-basis: 48%;
+}
+
+.featured__title {
+    color: #0A0826;
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 60px;
+    margin-bottom: 16px;
+}
+
+.featured__description {
+    color: #6C6C6C;
+
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 28px;
+    /* 175% */
+    margin-bottom: 20px;
+}
+
+.featured__btn {
+    border-radius: 5px;
+}
 
 /* ================================= Footer Section =================================== */
 
