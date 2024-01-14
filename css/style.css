@@ -1,0 +1,56 @@
+/* ================================= Google Font =================================== */
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap');
+/* ================================= Variable of CSS =================================== */
+:root {
+    /* ============= Font & Typography =================== */
+    --body-font: 'Poppins', sans-serif;
+    --footer-font: 'Manrope', sans-serif;
+}
+
+
+/* ========================== Base CSS ============================ */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--body-font);
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* ================================= Reusable CSS Classes =================================== */
+.container {
+    width: 75%;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+/* ================================= Header & Nav Section =================================== */
+
+
+/* ================================= Home Section =================================== */
+
+
+/* ================================= Popular Section =================================== */
+
+
+/* ================================= Featured Section =================================== */
+
+
+/* ================================= Footer Section =================================== */
+
+
+/* ================================= Mediu Query for Smallest Devices =================================== */
+
+
+/* ================================= Mediu Query for Medium Devices =================================== */
+
+
+/* ================================= Mediu Query for Largest Devices =================================== */
